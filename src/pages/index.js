@@ -4,17 +4,10 @@ import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
 
 export default function Home({ data }) {
-  console.log(data)
-  const { title, description } = data.site.siteMetadata
   return (
     <Layout>
       <section className={styles.header}>
-        <img
-          className={styles.avatar}
-          src="/profile.jpg"
-          alt="Profile"
-          //style={{ maxWidth: "50%" }}
-        />
+        <img className={styles.avatar} src="/profile.jpg" alt="Profile" />
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
@@ -23,22 +16,7 @@ export default function Home({ data }) {
             My Portfolio Projects
           </Link>
         </div>
-
-        <p>
-          {title} - {description}
-        </p>
       </section>
     </Layout>
   )
 }
-
-export const query = graphql`
-  query SiteInfo {
-    site {
-      siteMetadata {
-        description
-        title
-      }
-    }
-  }
-`
