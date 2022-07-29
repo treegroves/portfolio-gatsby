@@ -9,10 +9,14 @@ export default function Home({ data }) {
     <Layout>
       <section className={styles.header}>
         <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
+
         <div>
-          <h2>Design</h2>
-          <h3>Develop & Deploy</h3>
-          <p>UX designer & web developer based in Auckland.</p>
+          <h2>Tim Greenslade</h2>
+          <h3>Full Stack Developer</h3>
+          <p>Web developer based in Auckland, NZ.</p>
+          <Link className={styles.btn} to="/about">
+            About Me
+          </Link>
           <Link className={styles.btn} to="/projects">
             My Portfolio Projects
           </Link>
@@ -24,7 +28,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query Avatar {
-    file(relativePath: { eq: "profile.jpg" }) {
+    file(relativePath: { eq: "profile2.jpg" }) {
       childImageSharp {
         gatsbyImageData
       }
