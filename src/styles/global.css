@@ -11,8 +11,10 @@ html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+ background: radial-gradient(at top left, rgb(232, 196, 104) 0%, rgba(43,9,107,1) 100%);
   background-repeat: no-repeat;
+
+
 }
 p {
   margin: 16px auto;
@@ -28,6 +30,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 40px auto;
+max-width: 100%;
 }
 nav .links {
   display: inline-block;

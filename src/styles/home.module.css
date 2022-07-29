@@ -12,6 +12,15 @@
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+.avatar{
+max-width: 50%;
+border-bottom-left-radius: 30%;
+border-top-right-radius: 30%;
+border-top-left-radius: 10%;
+border-bottom-right-radius: 10%;
+}
+
 .btn {
   display: inline-block;
   background: #D42990;

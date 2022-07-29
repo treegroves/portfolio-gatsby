@@ -9,6 +9,12 @@ export default function Home({ data }) {
   return (
     <Layout>
       <section className={styles.header}>
+        <img
+          className={styles.avatar}
+          src="/profile.jpg"
+          alt="Profile"
+          //style={{ maxWidth: "50%" }}
+        />
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
@@ -17,7 +23,7 @@ export default function Home({ data }) {
             My Portfolio Projects
           </Link>
         </div>
-        <img src="/profile.jpg" alt="Profile" style={{ maxWidth: "100%" }} />
+
         <p>
           {title} - {description}
         </p>
