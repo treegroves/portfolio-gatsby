@@ -1,11 +1,17 @@
 import React from "react"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-export default function About() {
+export default function About({ data }) {
   return (
     <Layout>
       <div>
         <h1>About Page</h1>
+        <GatsbyImage
+          image={data.file.childImageSharp.gatsbyImageData}
+          style={{ width: "20vw" }}
+        />
         <p>
           I'm a Web Developer with a background in librarianship and community
           engagement. I started coding at the beginning of 2019 when I taught
@@ -31,6 +37,7 @@ export default function About() {
         </p>
 
         <h2>What drives me:</h2>
+
         <ol>
           <li>
             Social change: I have a passion for making the world a more
@@ -50,3 +57,13 @@ export default function About() {
     </Layout>
   )
 }
+
+export const query = graphql`
+  query AvatarAbout {
+    file(relativePath: { eq: "profile2.jpg" }) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
+  }
+`
