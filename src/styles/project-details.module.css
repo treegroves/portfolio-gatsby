@@ -13,3 +13,8 @@
 .featured {
   margin-bottom: 40px;
 }
+p a {
+font-weight: bold;}
+p a:hover {
+  text-decoration: underline;
+}
