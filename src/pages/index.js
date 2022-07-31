@@ -9,12 +9,10 @@ export default function Home({ data }) {
     <Layout>
       <section className={styles.header}>
         <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
-
         <div>
           <h2>Tim Greenslade</h2>
           <h3>Full Stack Developer</h3>
           <p>Web developer based in Auckland, NZ.</p>
-
           <Link className={styles.btn} to="/projects">
             My Projects
           </Link>
