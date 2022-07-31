@@ -1,14 +1,23 @@
 ---
-title: JavaScript Kata
+title: JavaScript Carnival
 stack: JavaScript, HTML & CSS
-slug: javascript-kata
-date: 2021-01-03T00:00:00+00:00
+slug: javascript-carnival
+date: 2022-07-29T00:00:00+00:00
 thumb: ../images/thumbs/jskatathumb.png
 featuredImg: ../images/featured/jskata-banner.jpg
 ---
+ # JavaScript Carnival
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+JavaScript Carnival was a series of Kata like projects I created for as part of the Dev Academy Aotearoa's Foundations course. 
+We created several programs, with various carnival themes (Think Unicorns, Clowns, Wack-a-mole). It was a bit of fun, but it also shows how I have learned and applied JavaScript.
 
-### Lorem ninja ipsum dolor
+[Check out the codebase here](https://github.com/treegroves/javascript-carnival) 
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+### Links to projects:
+[Tic-tac-toe](https://treegroves.github.io/tic-tac-toe/)  
+
+[Inflate the Unicorn](https://treegroves.github.io/javascript-carnival/inflate-the-unicorn/inflate-the-unicorn.html)  
+
+[Dress the Clown(use arrows)](https://treegroves.github.io/javascript-carnival/dress-the-clown/dress-the-clown.html)  
+
+[Whack-a-mole](https://treegroves.github.io/javascript-carnival/whack-a-mole/whack-a-mole.html)
