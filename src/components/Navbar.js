@@ -21,7 +21,7 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="https://github.com/treegroves">GitHub</Link>
-        <Link to="https://www.timgreenslade.com/blog/posts/archive.html">
+        <Link to="https://treegroves.github.io/blog/posts/archive.html">
           Blog
         </Link>
       </div>

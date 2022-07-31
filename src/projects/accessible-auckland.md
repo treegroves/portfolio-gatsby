@@ -2,7 +2,7 @@
 title: Accessible Auckland
 stack: React, JavaScript, HTML & SCSS, Knex, Sql3
 slug: accessible-auckland
-date: 2021-01-01T00:00:00+00:00
+date: 2022-07-30T00:00:00+00:00
 thumb: ../images/thumbs/aathumb.png
 featuredImg: ../images/featured/aa-banner.jpg
 ---

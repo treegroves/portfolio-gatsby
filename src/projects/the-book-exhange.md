@@ -2,7 +2,7 @@
 title: The Book Exchange
 stack: React, JavaScript, HTML & SCSS, Knex, Sql3, Auth0
 slug: the-book-exchange
-date: 2021-01-05T00:00:00+00:00
+date: 2022-07-31T00:00:00+00:00
 thumb: ../images/thumbs/tbe.png
 featuredImg: ../images/featured/tbe-banner.jpg
 ---
