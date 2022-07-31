@@ -19,8 +19,11 @@ export default function Navbar() {
       <h1>{title}</h1>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Portfolio Projects</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="https://github.com/treegroves">GitHub</Link>
+        <Link to="https://treegroves.github.io/blog/posts/archive.html">
+          Blog
+        </Link>
       </div>
     </nav>
   )

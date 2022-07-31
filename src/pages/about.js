@@ -1,87 +1,69 @@
 import React from "react"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-export default function About() {
+export default function About({ data }) {
   return (
     <Layout>
       <div>
         <h1>About Page</h1>
+        <GatsbyImage
+          image={data.file.childImageSharp.gatsbyImageData}
+          style={{ width: "20vw" }}
+        />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
-          ipsum corrupti nostrum iure ipsam, unde eveniet temporibus eaque
-          distinctio porro, accusamus, cum officia! Numquam, quam dolores
-          praesentium quae sapiente tenetur minima officia reprehenderit
-          cupiditate minus ad animi, sit, cumque omnis earum totam sint maxime?
-          Eveniet voluptatum officiis minus, debitis consectetur voluptas
-          numquam animi magni sequi corporis ipsum odio voluptatibus nulla
-          tempora, sunt aliquid? Ea qui recusandae eius nostrum dolorum saepe
-          laboriosam dolorem molestiae, blanditiis expedita odit obcaecati, amet
-          quia deserunt! Repellat at suscipit expedita vel nam, odit molestiae
-          quo pariatur quod alias, explicabo quibusdam nostrum illo eum fugiat
-          iusto corporis doloremque tempore! Eum molestias fuga dolor
-          praesentium vitae, quaerat doloribus, aspernatur quas fugiat illo
-          voluptate reiciendis amet aperiam ratione vero? A expedita, recusandae
-          laboriosam deserunt aperiam nostrum, temporibus corrupti hic vero
-          atque numquam nobis sed, magnam id ipsa quis animi quos pariatur alias
-          quae! Accusamus labore non incidunt quasi debitis perspiciatis fugiat,
-          excepturi exercitationem perferendis quas similique culpa impedit
-          natus facilis hic dicta dolorum qui quis molestiae? Aperiam non
-          delectus reprehenderit modi ipsa, necessitatibus fugit consequuntur
-          maiores neque nihil velit provident, voluptates eius soluta accusamus
-          ipsum harum id architecto sapiente, nemo ad rerum expedita? Quasi
-          dolore dolores id omnis a.
+          I'm a Web Developer with a background in librarianship and community
+          engagement. I started coding at the beginning of 2019 when I taught
+          myself HTML & CSS and put together some static websites. I enjoyed
+          thinking about UX/UI, mocking up wireframes and prototypes, then
+          making them a reality with code.
         </p>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
-          ipsum corrupti nostrum iure ipsam, unde eveniet temporibus eaque
-          distinctio porro, accusamus, cum officia! Numquam, quam dolores
-          praesentium quae sapiente tenetur minima officia reprehenderit
-          cupiditate minus ad animi, sit, cumque omnis earum totam sint maxime?
-          Eveniet voluptatum officiis minus, debitis consectetur voluptas
-          numquam animi magni sequi corporis ipsum odio voluptatibus nulla
-          tempora, sunt aliquid? Ea qui recusandae eius nostrum dolorum saepe
-          laboriosam dolorem molestiae, blanditiis expedita odit obcaecati, amet
-          quia deserunt! Repellat at suscipit expedita vel nam, odit molestiae
-          quo pariatur quod alias, explicabo quibusdam nostrum illo eum fugiat
-          iusto corporis doloremque tempore! Eum molestias fuga dolor
-          praesentium vitae, quaerat doloribus, aspernatur quas fugiat illo
-          voluptate reiciendis amet aperiam ratione vero? A expedita, recusandae
-          laboriosam deserunt aperiam nostrum, temporibus corrupti hic vero
-          atque numquam nobis sed, magnam id ipsa quis animi quos pariatur alias
-          quae! Accusamus labore non incidunt quasi debitis perspiciatis fugiat,
-          excepturi exercitationem perferendis quas similique culpa impedit
-          natus facilis hic dicta dolorum qui quis molestiae? Aperiam non
-          delectus reprehenderit modi ipsa, necessitatibus fugit consequuntur
-          maiores neque nihil velit provident, voluptates eius soluta accusamus
-          ipsum harum id architecto sapiente, nemo ad rerum expedita? Quasi
-          dolore dolores id omnis a.
+          This experience triggered a passionate curiosity leading me deeper
+          into Web Development. I wanted to know how to make a web app from the
+          ground up. My first step was getting a Web Development certificate at
+          Whitecliffe College; the brief but exciting course left me wanting
+          more.
         </p>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
-          ipsum corrupti nostrum iure ipsam, unde eveniet temporibus eaque
-          distinctio porro, accusamus, cum officia! Numquam, quam dolores
-          praesentium quae sapiente tenetur minima officia reprehenderit
-          cupiditate minus ad animi, sit, cumque omnis earum totam sint maxime?
-          Eveniet voluptatum officiis minus, debitis consectetur voluptas
-          numquam animi magni sequi corporis ipsum odio voluptatibus nulla
-          tempora, sunt aliquid? Ea qui recusandae eius nostrum dolorum saepe
-          laboriosam dolorem molestiae, blanditiis expedita odit obcaecati, amet
-          quia deserunt! Repellat at suscipit expedita vel nam, odit molestiae
-          quo pariatur quod alias, explicabo quibusdam nostrum illo eum fugiat
-          iusto corporis doloremque tempore! Eum molestias fuga dolor
-          praesentium vitae, quaerat doloribus, aspernatur quas fugiat illo
-          voluptate reiciendis amet aperiam ratione vero? A expedita, recusandae
-          laboriosam deserunt aperiam nostrum, temporibus corrupti hic vero
-          atque numquam nobis sed, magnam id ipsa quis animi quos pariatur alias
-          quae! Accusamus labore non incidunt quasi debitis perspiciatis fugiat,
-          excepturi exercitationem perferendis quas similique culpa impedit
-          natus facilis hic dicta dolorum qui quis molestiae? Aperiam non
-          delectus reprehenderit modi ipsa, necessitatibus fugit consequuntur
-          maiores neque nihil velit provident, voluptates eius soluta accusamus
-          ipsum harum id architecto sapiente, nemo ad rerum expedita? Quasi
-          dolore dolores id omnis a.
+          I took a leap and enrolled in a 15-week intensive Full-Stack Web
+          Development Bootcamp with Dev Academy Aotearoa. After 800 hours of
+          coding, I came out the other side with the ability to create
+          Full-Stack Apps, work in a team and learn effectively in a
+          high-pressure environment.
         </p>
+
+        <h2>What drives me:</h2>
+
+        <ol>
+          <li>
+            Social change: I have a passion for making the world a more
+            inclusive place through the power of code - with a particular focus
+            on promoting better outcomes for disabled people.
+          </li>
+          <li>
+            Working collaboratively: I thrive in collaborative environments and
+            always strive to build good team dynamics.
+          </li>
+          <li>
+            Learning: I have a passion for understanding how things work;
+            curiosity is what keeps life interesting!
+          </li>
+        </ol>
       </div>
     </Layout>
   )
 }
+
+export const query = graphql`
+  query AvatarAbout {
+    file(relativePath: { eq: "profile2.jpg" }) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
+  }
+`

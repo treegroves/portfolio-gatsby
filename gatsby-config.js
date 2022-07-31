@@ -31,6 +31,6 @@ module.exports = {
     title: "Tim Greenslade",
     description: "web dev portfolio",
     copyright: "This website is copyright 2022 Tim Greenslade",
-    contact: "me@timgreenslade.com",
+    contact: "tmgreenslade@gmail.com",
   },
 }

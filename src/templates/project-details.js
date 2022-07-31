@@ -5,6 +5,7 @@ import * as styles from "../styles/project-details.module.css"
 import { graphql } from "gatsby"
 
 export default function ProjectDetails({ data }) {
+  console.log(data)
   const { html } = data.markdownRemark
   const { title, stack } = data.markdownRemark.frontmatter
   const image = getImage(
