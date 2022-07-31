@@ -8,11 +8,11 @@ featuredImg: ../images/featured/aa-banner.jpg
 ---
 
 # Accessible Auckland
-Accessible Auckland is a solo project I am working on, influenced by Accessible-Japan, and spurred on by my desire as a access citizen to make going out an easier process for people with access needs. The goal to is to create a webapp that presents accessibility information about locations around Auckland, in a usable way. 
+Accessible Auckland is a solo project I am working on, influenced by Accessible-Japan, and spurred on by my desire as an access citizen to make going out an easier process for people with access needs. The goal is to create a web app that presents accessibility information about locations around Auckland, in a usable way. 
 
 
 #### Minimum Viable Product(MVP):
-Currently I am focussing on reaching MVP, which involves a database with regions and locations tables, as well as search functionality.   
+Currently, I am focussing on reaching MVP, which involves a database with region and location tables, as well as a search function.   
 
 [Check out the codebase here](https://github.com/treegroves/Accessible_Auckland)  
 
