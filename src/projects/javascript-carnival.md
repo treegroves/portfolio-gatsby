@@ -8,8 +8,9 @@ featuredImg: ../images/featured/jskata-banner.jpg
 ---
  # JavaScript Carnival
 
-JavaScript Carnival was a series of Kata like projects I created for as part of the Dev Academy Aotearoa's Foundations course. 
+JavaScript Carnival was a series of Kata-like projects I created as part of the Dev Academy Aotearoa's Foundations course.
 We created several programs, with various carnival themes (Think Unicorns, Clowns, Wack-a-mole). It was a bit of fun, but it also shows how I have learned and applied JavaScript.
+
 
 [Check out the codebase here](https://github.com/treegroves/javascript-carnival) 
 

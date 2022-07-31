@@ -11,7 +11,7 @@ featuredImg: ../images/featured/tbe-banner.jpg
 The Book Exchange is a collaborative effort to produce as a capstone project for the Dev Academy Aotearoa Bootcamp.
 it is an online marketplace for users to exchange books they’ve already read for books they haven’t.
 
-[Spin it up and have look here](https://the-book-exchange-mako.herokuapp.com/)  
+[Spin it up and have a look here](https://the-book-exchange-mako.herokuapp.com/)  
 
 [Check out the codebase here](https://github.com/mako-goblin-2022/the-book-exchange)  
   
