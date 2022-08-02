@@ -18,12 +18,14 @@ export default function Projects({ data }) {
             <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
               <div>
                 <GatsbyImage
-                  className={styles.avatar}
+                  className="shadow-lg rounded-lg hover:opacity-80 mb-3"
                   image={
                     project.frontmatter.thumb.childImageSharp.gatsbyImageData
                   }
                 />
-                <h3>{project.frontmatter.title}</h3>
+                <h3 className="text-xl font-semibold">
+                  {project.frontmatter.title}
+                </h3>
                 <p>{project.frontmatter.stack}</p>
               </div>
             </Link>
