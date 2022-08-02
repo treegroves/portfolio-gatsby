@@ -18,6 +18,7 @@
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^2.19.0",
     "gatsby-plugin-sharp": "^4.19.0",
+    "gatsby-remark-images": "^6.19.0",
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-transformer-remark": "^5.19.0",
     "gatsby-transformer-sharp": "^4.19.0",
@@ -26,7 +27,11 @@
     "react-lorem-ipsum": "^1.4.10"
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "autoprefixer": "^10.4.8",
+    "gatsby-plugin-postcss": "^5.19.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.7"
   },
   "repository": {
     "type": "git",
