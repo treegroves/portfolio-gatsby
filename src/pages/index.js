@@ -12,17 +12,21 @@ export default function Home({ data }) {
           <div className="md:shrink-1 lg:shrink-1">
             <GatsbyImage
               image={data.file.childImageSharp.gatsbyImageData}
-              className="drop-shadow-xl rounded-md grounded-lg mr-10"
+              className="drop-shadow-xl rounded-md grounded-lg mr-10 ml-3"
             />
           </div>
           <div className="text-left">
-            <h2 className="font-bold text-7xl">Tim Greenslade</h2>
-            <h3 className="font-medium text-5xl">Full Stack Developer</h3>
-            <p className="font-medium text-2xl">Based in Auckland, NZ.</p>
+            <h2 className="ml-3 font-bold md:text-7xl">Tim Greenslade</h2>
+            <h3 className="ml-3 font-medium md:text-5xl">
+              Full Stack Developer
+            </h3>
+            <p className="ml-3 font-medium md:text-2xl">
+              Based in Auckland, NZ.
+            </p>
             <Link className={styles.btn} to="/projects">
               My Projects
             </Link>
-            <div className="text-justify">
+            <div className="ml-3 mr-3 text-justify">
               <p>
                 I'm a Web Developer with a background in librarianship and
                 community engagement. I started coding at the beginning of 2019
