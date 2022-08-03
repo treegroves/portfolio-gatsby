@@ -16,6 +16,7 @@ export default function Navbar() {
 
   return (
     <nav>
+      <h1>{title}</h1>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
@@ -23,9 +24,9 @@ export default function Navbar() {
         <Link to="https://treegroves.github.io/blog/posts/archive.html">
           Blog
         </Link>
-        <Link to="javascript:void(0);" class="icon" onclick="myFunction()">
+        {/* <Link to="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
-        </Link>
+        </Link> */}
       </div>
     </nav>
   )

@@ -30,8 +30,9 @@ p {
   margin: 0 auto;
 }
 
-/* nav {
-  display: grid;
+nav {
+  display: flex;
+justify-content:space-between ;
   grid-template-columns: 1fr 1fr;
   margin: 40px auto;
   max-width: 100%;
@@ -49,9 +50,9 @@ nav a {
 }
 nav a:hover {
   border-color: black;
-} */
+}
 
-nav{
+/* nav{
 overflow: hidden;
 margin: 40px auto;
   max-width: 100%;
@@ -75,7 +76,7 @@ border-color: black;}
 
 .nav .icon {
   display: none;
-}
+} */
 
 footer p{
   text-align: center;
@@ -84,7 +85,7 @@ footer p{
 }
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
     float: right;
@@ -104,4 +105,4 @@ footer p{
     display: block;
     text-align: left;
   }
-}
+} */
