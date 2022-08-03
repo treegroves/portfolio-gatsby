@@ -24,7 +24,9 @@
 }
 
 .btn:hover {
-opacity: 80%;}
+color: white;
+background: #eac4db;
+}
 
 .avatarcontainer {
   width: 25vw;
