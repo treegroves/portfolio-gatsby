@@ -15,36 +15,38 @@ export default function Home({ data }) {
               className="drop-shadow-xl rounded-md grounded-lg mr-10"
             />
           </div>
-          <div>
-            <h2 className="font-medium text-5xl">Tim Greenslade</h2>
-            <h3>Full Stack Developer</h3>
-            <p>Web developer based in Auckland, NZ.</p>
+          <div className="text-left">
+            <h2 className="font-bold text-7xl">Tim Greenslade</h2>
+            <h3 className="font-medium text-5xl">Full Stack Developer</h3>
+            <p className="font-medium text-2xl">Based in Auckland, NZ.</p>
             <Link className={styles.btn} to="/projects">
               My Projects
             </Link>
-            <p>
-              I'm a Web Developer with a background in librarianship and
-              community engagement. I started coding at the beginning of 2019
-              when I taught myself HTML & CSS and put together some static
-              websites. I enjoyed thinking about UX/UI, mocking up wireframes
-              and prototypes, then making them a reality with code.
-            </p>
+            <div className="text-justify">
+              <p>
+                I'm a Web Developer with a background in librarianship and
+                community engagement. I started coding at the beginning of 2019
+                when I taught myself HTML & CSS and put together some static
+                websites. I enjoyed thinking about UX/UI, mocking up wireframes
+                and prototypes, then making them a reality with code.
+              </p>
 
-            <p>
-              This experience triggered a passionate curiosity leading me deeper
-              into Web Development. I wanted to know how to make a web app from
-              the ground up. My first step was getting a Web Development
-              certificate at Whitecliffe College; the brief but exciting course
-              left me wanting more.
-            </p>
+              <p>
+                This experience triggered a passionate curiosity leading me
+                deeper into Web Development. I wanted to know how to make a web
+                app from the ground up. My first step was getting a Web
+                Development certificate at Whitecliffe College; the brief but
+                exciting course left me wanting more.
+              </p>
 
-            <p>
-              I took a leap and enrolled in a 15-week intensive Full-Stack Web
-              Development Bootcamp with Dev Academy Aotearoa. After 800 hours of
-              coding, I came out the other side with the ability to create
-              Full-Stack Apps, work in a team and learn effectively in a
-              high-pressure environment.
-            </p>
+              <p>
+                I took a leap and enrolled in a 15-week intensive Full-Stack Web
+                Development Bootcamp with Dev Academy Aotearoa. After 800 hours
+                of coding, I came out the other side with the ability to create
+                Full-Stack Apps, work in a team and learn effectively in a
+                high-pressure environment.
+              </p>
+            </div>
           </div>
         </div>
       </section>
