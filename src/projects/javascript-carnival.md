@@ -6,8 +6,6 @@ date: 2022-07-29T00:00:00+00:00
 thumb: ../images/thumbs/jskatathumb.png
 featuredImg: ../images/featured/jskata-banner.jpg
 ---
- # JavaScript Carnival
-
 JavaScript Carnival was a series of Kata-like projects I created as part of the Dev Academy Aotearoa's Foundations course.
 We created several programs, with various carnival themes (Think Unicorns, Clowns, Wack-a-mole). It was a bit of fun, but it also shows how I have learned and applied JavaScript.
 
