@@ -16,7 +16,7 @@ summary: The Book Exchange is a collaborative effort to produce as a capstone pr
   
 **My Role:**
 
-A highlight of this project was the UX/UI design I did to make this project look really good and function well for the user. I enjoyed standardizing the Styling over the different aspects of the project. There were a few UI challenges in particular that I enjoyed solving, namely the user profile and user book listing page. Due to the tight schedule for completion, we were running close to the deadline, and I didn’t have a lot of time to dedicate to styling, so completed it in less than half a day. If I were to do it over again, I would allocate more time to this.
+***A highlight of this project was the UX/UI design I did to make this project look really good and function well for the user. I enjoyed standardizing the Styling over the different aspects of the project. There were a few UI challenges in particular that I enjoyed solving, namely the user profile and user book listing page. Due to the tight schedule for completion, we were running close to the deadline, and I didn’t have a lot of time to dedicate to styling, so completed it in less than half a day. If I were to do it over again, I would allocate more time to this.***
 
 As part of this project, I filled the Agile role of Git Keeper. I ensured that my peers worked in feature branches and did pull requests that lined up with the completion of tickets. I reviewed pull requests, ensured that they contained clean code, and made sure the merge would not cause conflicts.
 
