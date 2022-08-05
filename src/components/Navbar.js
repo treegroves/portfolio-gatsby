@@ -25,6 +25,9 @@ export default function Navbar() {
         <Link to="https://treegroves.github.io/blog/posts/archive.html">
           Blog
         </Link>
+        {/* <Link to="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </Link> */}
       </div>
     </nav>
   )
