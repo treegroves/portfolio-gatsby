@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
 import { GatsbyImage } from "gatsby-plugin-image"
-
+import { TbClick } from "react-icons/tb"
 export default function Home({ data }) {
   return (
     <Layout>
@@ -24,7 +24,7 @@ export default function Home({ data }) {
               Based in Auckland, NZ.
             </p>
             <Link className={styles.btn} to="/projects">
-              My Projects
+              Checkout My Projects Here <TbClick className={styles.tbClick} />
             </Link>
             <div className="ml-3 mr-3 text-justify">
               <p>
