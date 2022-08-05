@@ -31,15 +31,13 @@ p {
 }
 
 nav {
-  display: grid;
+  display: flex;
+  justify-content:space-between ;
   grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  margin: 40px 40px;
   max-width: 100%;
 }
-nav .links {
-  display: inline-block;
-  text-align: right;
-}
+
 nav a {
   display: inline-block;
   margin-left: 20px;
@@ -50,8 +48,22 @@ nav a {
 nav a:hover {
   border-color: black;
 }
+
+nav a:focus{
+border-color: black;
+}
+
+@media screen and (max-width: 620px) {
+  nav {
+  justify-content: space-around;
+  }
+}
+   
+
 footer p{
   text-align: center;
   color: #bbb;
   margin: 40px auto;
 }
+
+

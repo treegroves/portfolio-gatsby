@@ -12,7 +12,7 @@ export default function Home({ data }) {
           <div className="md:shrink-1 lg:shrink-1">
             <GatsbyImage
               image={data.file.childImageSharp.gatsbyImageData}
-              className="drop-shadow-xl rounded-md grounded-lg mr-10"
+              className="drop-shadow-xl rounded-md grounded-lg sm:mr-10"
             />
           </div>
           <div>
