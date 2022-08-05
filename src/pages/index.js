@@ -43,7 +43,7 @@ export default function Home({ data }) {
                 exciting course left me wanting more.
               </p>
 
-              <p>
+              <p className="font-bold">
                 I took a leap and enrolled in a 15-week intensive Full-Stack Web
                 Development Bootcamp with Dev Academy Aotearoa. After 800 hours
                 of coding, I came out the other side with the ability to create
