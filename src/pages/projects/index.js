@@ -31,7 +31,6 @@ export default function Projects({ data }) {
             </Link>
           ))}
         </div>
-        <p>Like what you see? Email me at {contact}!</p>
       </div>
     </Layout>
   )
